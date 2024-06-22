@@ -55,22 +55,21 @@ The pipeline is designed to:
 ## System Setup
 1. Clone the repository.
 2. Navigate to the root directory where the Dockerfile is located.
-3. Rename the credentials to the configuration file.
-4. Start Docker container for Apache Airflow.
+3. Start Docker container for Apache Airflow.
     ```bash
     docker-compose up
     ```
-5. Launch the Airflow web UI.
+4. Launch the Airflow web UI.
     ```bash
     open http://localhost:8080
     ```
-6. Set up Docker network, build customized container image for MySQL, and start Docker containers for both MySQL and MongoDB.
+5. Set up Docker network, build customized container image for MySQL, and start Docker containers for both MySQL and MongoDB.
     ```bash
     python3 containers.py -network
     python3 containers.py -image
     python3 containers.py -create
     ```
-7. Deploy the Airflow DAG and start the pipeline.
+6. Deploy the Airflow DAG and start the pipeline.
     ```bash
     airflow dags trigger mbta_etl_cdc_pipeline
     ```
