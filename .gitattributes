@@ -1,0 +1,2 @@
+data_analysis/mbta_analysis.ipynb linguist-vendored
+*.sql linguist-detectable=true
