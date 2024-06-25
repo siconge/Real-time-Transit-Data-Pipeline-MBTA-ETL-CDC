@@ -1,4 +1,10 @@
+<div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #ffffff; border-top: 1px solid #cccccc; padding: 10px; text-align: center; z-index: 1000;">
+    <a href="https://siconge.github.io/">Back to Portfolio</a>
+</div>
+
 # Real-time Transit Data Pipeline: ETL and CDC from MBTA to MySQL and MongoDB
+
+[Go to repository](https://github.com/siconge/Real-time-Transit-Data-Pipeline-MBTA-ETL-CDC)
 
 ## Description
 This project presents a comprehensive and integrated real-world data engineering pipeline that leverages real-time transit data from the Massachusetts Bay Transportation Authority (MBTA).
@@ -15,6 +21,8 @@ In addition to real-time data handling, the pipeline also facilitates historical
 - [Prerequisites](#prerequisites)
 - [System Setup](#system-setup)
 
+[Back to top](#real-time-transit-data-pipeline-etl-and-cdc-from-mbta-to-mysql-and-mongodb)
+
 ## Overview
 The pipeline is designed to:
 1. **Real-time Data Ingestion**:
@@ -29,12 +37,16 @@ The pipeline is designed to:
     - Calculate the average time for a bus to complete Route 1 and estimate bus speed using the Haversine formula.
     - Visualize the analysis results to understand traffic patterns and peak times in Boston.
 
+[Back to top](#real-time-transit-data-pipeline-etl-and-cdc-from-mbta-to-mysql-and-mongodb)
+
 ## Benefits
 - **Real-Time Data Synchronization**: Ensuring MongoDB is always in sync with MySQL by capturing and storing data changes in near real-time.
 - **Data Consistency and Integrity Monitoring**: Monitoring data consistency and integrity between MySQL and MongoDB using CDC logs.
 - **Event-Driven Architectures**: Triggering actions based on changes captured by CDC, enhancing system responsiveness and automation.
 - **Disaster Recovery and Backup**: Utilizing MySQL binary logs captured by CDC for robust disaster recovery.
 - **Historical Analysis and Visualization**: Deriving insights and visualizations from the MBTA data stored in MySQL.
+
+[Back to top](#real-time-transit-data-pipeline-etl-and-cdc-from-mbta-to-mysql-and-mongodb)
 
 ## Architecture
 ![mbta_pipeline_architecture.png](assets/mbta_pipeline_architecture.png)
@@ -48,9 +60,13 @@ The pipeline is designed to:
 7. **SQLAlchemy**: Facilitates database connections and interactions.
 8. **Pandas and Matplotlib**: Data analysis and visualization performed in Jupyter Notebook.
 
+[Back to top](#real-time-transit-data-pipeline-etl-and-cdc-from-mbta-to-mysql-and-mongodb)
+
 ## Prerequisites
 - Docker installation.
 - Python 3.9 or higher.
+
+[Back to top](#real-time-transit-data-pipeline-etl-and-cdc-from-mbta-to-mysql-and-mongodb)
 
 ## System Setup
 1. Clone the repository.
@@ -74,3 +90,5 @@ The pipeline is designed to:
     airflow dags trigger mbta_etl_cdc_pipeline
     ```
     or manually trigger the DAG from the Airflow web UI.
+
+&#160;
