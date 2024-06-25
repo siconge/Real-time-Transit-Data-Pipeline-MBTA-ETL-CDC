@@ -4,14 +4,13 @@
 
 # Real-time Transit Data Pipeline: ETL and CDC from MBTA to MySQL and MongoDB
 
-[Go to repository](https://github.com/siconge/Real-time-Transit-Data-Pipeline-MBTA-ETL-CDC)
-
-## Description
 This project presents a comprehensive and integrated real-world data engineering pipeline that leverages real-time transit data from the Massachusetts Bay Transportation Authority (MBTA).
 
 The pipeline demonstrates the use of Extract, Transform, Load (ETL) and Change Data Capture (CDC) processes to ensure real-time data ingestion and storage, as well as data synchronization across storage systems for efficient data replication and consistency. Utilizing a variety of data engineering tools and technologies, including Docker, Apache Airflow, MySQL, MongoDB, and Python MySQL Replication, the pipeline supports real-time data availability, event-driven architectures, and disaster recovery. This makes it an exemplary model for handling dynamic data in a production-like environment.
 
 In addition to real-time data handling, the pipeline also facilitates historical data analysis and visualization. This enables time-series analysis and trend detection to provide insights into transit patterns, informing decision-making and optimizing transit operations.
+
+[Go to repository](https://github.com/siconge/Real-time-Transit-Data-Pipeline-MBTA-ETL-CDC)
 
 <h2>Table of Contents</h2>
 
