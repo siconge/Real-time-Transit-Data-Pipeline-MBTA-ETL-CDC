@@ -2,7 +2,7 @@
     <a href="https://siconge.github.io/">Back to Portfolio</a>
 </div>
 
-# Real-time Transit Data Pipeline: ETL and CDC from MBTA to MySQL and MongoDB
+# Real-time Transit Data Pipeline: ETL from MBTA to MySQL and CDC with MongoDB
 
 [Go to repository](https://github.com/siconge/Real-time-Transit-Data-Pipeline-MBTA-ETL-CDC)
 
